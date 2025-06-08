@@ -1,0 +1,25 @@
+# Interference Resonance Mass Model (IRMM) — Python Implementation
+
+This Python script implements the core logic of the **Interference Resonance Mass Model (IRMM)**, a framework for predicting particle masses using interference vectors formed from the logarithms of universal constants.
+
+---
+
+## 🧪 What It Does
+
+- Transforms particle masses into **logarithmic Planck-normalized space**
+- Computes **interference vectors** from:
+  - \(\log_{10}(\pi)\)
+  - \(\log_{10}(e)\)
+  - \(\log_{10}(\hbar)\)
+- Trains a linear regression model using known fermion and baryon masses
+- Predicts all known masses with near-zero error
+- Plots each particle in a **3D interference node space**
+
+---
+
+## 🔧 Requirements
+
+Install these dependencies (if not already installed):
+
+```bash
+pip install numpy scikit-learn matplotlib
